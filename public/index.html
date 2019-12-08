@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="Duva - web client">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Duva - web client</title>
+		<link rel="stylesheet" href="styles/main.css">
+	</head>
+	<body>
+		<section id="container">
+			<div id="debug">hej</div>
+			<div id="map"></div>
+		</section>
+
+		<script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-auth.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-firestore.js"></script>
+
+		<script src="scripts/init.js"></script>
+		<script src="scripts/main.js"></script>
+
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmfzGTqZwn2NhwOGjDHReM51kWX_GbXxA&callback=initMap"></script>
+	</body>
+</html>

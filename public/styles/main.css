@@ -1,0 +1,22 @@
+html, body {
+	font-family: 'Roboto', 'Helvetica' sans-serif;
+}
+
+#container {
+	width: 100%;
+	background-color: blue;
+}
+
+#debug {
+	height: 98vh;
+	width: 20%;
+	background-color: #fafafa;
+	float: left;
+}
+
+#map {
+	height: 98vh;
+	background-color: grey;
+}
+
+
